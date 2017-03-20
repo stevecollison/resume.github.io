@@ -1,5 +1,7 @@
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,11 +9,13 @@ body {
   margin: 0em;
   background-color: #fff;
   color: #666;
+
 }
 
 h1, h2, h3 {
   font-family: 'Lato';
-  font-weight: 300;
+  -webkit-text-stroke:1px transparent;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a {
@@ -65,7 +69,6 @@ header h1 {
   text-shadow: 0 2px 0 rgba(0,0,0, 0.2);
   position: relative;
   top: 370px;
-  font-weight: 700;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
@@ -197,6 +200,7 @@ footer hr {
   color: white;
   height: 50%;
   background-color: red;
+
 }
 
 
@@ -257,7 +261,25 @@ footer hr {
   padding-bottom: 3em;
   font-size: 30px;
   font-family: "Lato", sans-serif;
+  opacity: 0.5;
+  border-radius: 3px;
 
+
+}
+
+.span_1_of_3:hover {
+   cursor:pointer;
+}
+/*
+.span_1_of_3:hover{
+   background-color:#FFFFFF;
+   color: #000000;
+}
+
+
+.testimonial h1:hover{
+   background-color:#FFFFFF;
+   color: #000000;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -335,9 +357,13 @@ footer hr {
   background-color: red;
   line-height: 100px;
   color: white;
-
-
+  opacity: 0.5;
 }
+
+
+.testimonial h1:hover {
+   cursor:pointer;
+ }
 
 .testimonial p {
   font-style: italic;
@@ -378,7 +404,7 @@ footer hr {
   border-radius: 3px;
   color: #e4382c;
   font-size: 1.1em;
-  opacity: .8;
+  opacity: .7;
   margin-bottom: 10px;
 }
 
