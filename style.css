@@ -254,7 +254,7 @@ footer hr {
   margin: 1%;
   display:inline-block;
   color: white;
-  background: url(img/runup.jpg) 50% 50% no-repeat;
+  background: url(img/runup.png) 50% 50% no-repeat;
   background-size:cover;
   size: 50%;
   padding-top: 3em;
@@ -263,6 +263,7 @@ footer hr {
   font-family: "Lato", sans-serif;
   opacity: 1;
   border-radius: 3px;
+
 }
   .span_1_of_4 {
   	width: 30%;
@@ -278,6 +279,7 @@ footer hr {
     font-family: "Lato", sans-serif;
     opacity: 1;
     border-radius: 3px;
+    padding-left: 15px;
 }
 .span_1_of_5 {
   width: 30%;
