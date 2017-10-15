@@ -13,7 +13,6 @@ body {
 }
 
 h1, h2, h3 {
-  display: none;
   font-family: 'Lato';
   -webkit-text-stroke:1px transparent;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -37,7 +36,6 @@ p {
 
 img {
   max-width: 100%;
-  width: 45%;
 }
 
 hr {
@@ -49,7 +47,7 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/background.jpg);
+  background-image: url(img/profile.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -68,7 +66,6 @@ header h1 {
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
-  text-shadow: 0 2px 0 rgba(0,0,0, 0.2);
   position: relative;
   top: 370px;
   font-family: 'Lato', sans-serif;
@@ -201,7 +198,7 @@ footer hr {
   padding-bottom: 3em;
   color: white;
   height: 50%;
-  background-color: red;
+
 
 }
 
@@ -257,19 +254,131 @@ footer hr {
   margin: 1%;
   display:inline-block;
   color: white;
-  background-color: red;
-  height: 50%;
+  background: url(img/runup.jpg) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
   padding-top: 3em;
   padding-bottom: 3em;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Lato", sans-serif;
-  opacity: 0.5;
+  opacity: 1;
   border-radius: 3px;
-
-
+}
+  .span_1_of_4 {
+  	width: 30%;
+    margin: 1%;
+    display:inline-block;
+    color: #000;
+    background: url(img/runup.jpg) 50% 50% no-repeat;
+    background-size:cover;
+    size: 50%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    opacity: 1;
+    border-radius: 3px;
+}
+.span_1_of_5 {
+  width: 30%;
+  margin: 1%;
+  display:inline-block;
+  color: white;
+  background: url(img/desktopmarketing.png) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  border-radius: 3px;
+}
+.span_1_of_6 {
+  width: 30%;
+  margin: 1%;
+  display:inline-block;
+  color: white;
+  background: url(img/technometer.png) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  border-radius: 3px;
+}
+.span_1_of_7 {
+  width: 30%;
+  margin: 1%;
+  display:inline-block;
+  color: white;
+  background: url(img/mobilemarketing.png) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  border-radius: 3px;
+}
+.span_1_of_8 {
+  width: 30%;
+  margin: 1%;
+  display:inline-block;
+  color: white;
+  background: url(img/taxi.png) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  border-radius: 3px;
+}
+.span_1_of_9 {
+  width: 30%;
+  margin: 1%;
+  display:inline-block;
+  color: white;
+  background: url(img/weathernetwork.png) 50% 50% no-repeat;
+  background-size:cover;
+  size: 50%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  border-radius: 3px;
+}
+}
+.HiddenText1 {
+    display: none;
 }
 
-.span_1_of_3:hover {
+.span_1_of_4:hover .HiddenText1 {
+    display:block;
+}
+.span_1_of_4:hover {
+   cursor:pointer;
+}
+
+.span_1_of_5:hover {
+   cursor:pointer;
+}
+.span_1_of_6:hover {
+   cursor:pointer;
+}
+.span_1_of_7:hover {
+   cursor:pointer;
+}
+.span_1_of_8:hover {
+   cursor:pointer;
+}
+.span_1_of_9:hover {
    cursor:pointer;
 }
 /*
@@ -356,12 +465,60 @@ footer hr {
   font-size: 12px;
   width: 100px;
   Height: 100px;
-  background-color: red;
+  background-size: cover;
   line-height: 100px;
   color: white;
   opacity: 0.5;
 }
 
+.test1 {
+  background: url(img/behance-logo.svg) #83CCF7 50% 50% no-repeat;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+  font-size: 12px;
+  width: 100px;
+  Height: 100px;
+  background-size: cover;
+  line-height: 100px;
+  color: black;
+  opacity: 0.5;
+
+}
+
+.test2 {
+  background: url(img/linkedin-logo.svg) #83CCF7 50% 50% no-repeat;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+  font-size: 12px;
+  width: 100px;
+  Height: 100px;
+  background-size: cover;
+  line-height: 100px;
+  color: black;
+  opacity: 0.5;
+}
+
+.test3 {
+  background: url(img/twitter-logo-silhouette.svg) #83CCF7 50% 50% no-repeat;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+  font-size: 12px;
+  width: 100px;
+  Height: 100px;
+  background-size: cover;
+  line-height: 100px;
+  color: black;
+  opacity: 0.5;
+}
 
 .testimonial h1:hover {
    cursor:pointer;
@@ -375,11 +532,12 @@ footer hr {
 
 /* Spotlight */
 .spotlight {
-  background-color: #444956;
+  background-color: #7A9FAF;
   padding: 3em 1em;
   margin-top: 3em;
   margin-bottom: 3em;
   text-align: center;
+  width: 100%;
 }
 
 .spotlight img {
@@ -388,24 +546,23 @@ footer hr {
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 
 .spotlight h1 {
-  color: silver;
+  color: #fff;
 }
 
 .spotlight p {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 1.1em;
 }
 
 .spotlight a {
   background-color: transparent;
-  border: 3px solid red;
+  border: 3px solid #fff;
   padding: 7px 35px;
   border-radius: 3px;
-  color: #e4382c;
+  color: #fff;
   font-size: 1.1em;
   opacity: .7;
   margin-bottom: 10px;
