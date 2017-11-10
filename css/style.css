@@ -114,3 +114,16 @@ border-color: #2254A7;
 background-color: #474747;
 
 }
+
+h4 {
+  font-weight:300;
+}
+
+h2 {
+  font-weight:400;
+  font-size: 3em;
+}
+
+h1{
+  font-size: 3em;
+}
