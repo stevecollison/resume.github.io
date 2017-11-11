@@ -149,3 +149,8 @@ width: 100%;
 .carousel-control-next-icon {
     color: black;
 }
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
