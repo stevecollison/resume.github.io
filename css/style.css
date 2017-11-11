@@ -145,3 +145,7 @@ img.img-fluid {
 width: 100%;
 
 }
+
+.carousel-control-next-icon {
+    color: black;
+}
