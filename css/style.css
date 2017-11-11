@@ -17,6 +17,7 @@ body {
   background: none;
   padding-left: 0em;
   padding-right: 0em;
+  border-radius: 0;
 }
 
 .display-3 {
@@ -131,6 +132,11 @@ p {
   font-weight: 300;
 }
 
+p.lead {
+
+font-weight:300;
+
+}
 .imgwrapper {
    width: 50%;
 }
