@@ -1,5 +1,5 @@
-header {
-  background-color: #999;
+body {
+  background-color: #white;
   background-image: url(img/Background.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,7 +33,7 @@ font-size: 3em;
 body {
   font-family: .SFNSDisplay-Regular;
   font-weight: 500;
-  padding-top: 0rem;
+
 }
 
 .nav-link {
@@ -128,7 +128,12 @@ h1{
   font-size: 3em;
 }
 
-.container {
 
-  max-width: 1200px;
+
+p {
+  font-weight: 300;
+}
+
+.imgwrapper {
+   width: 50%;
 }
