@@ -49,9 +49,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
-  height: 500px;
 }
 
 .btn btn-primary {
@@ -136,4 +133,9 @@ p {
 
 .imgwrapper {
    width: 50%;
+}
+
+img.img-fluid {
+width: 100%;
+
 }
