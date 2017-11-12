@@ -1,6 +1,6 @@
 body {
   background-color: #white;
-  background-image: url(img/Background.png);
+  background-image: url(https://s3.ca-central-1.amazonaws.com/stevencollison.ca/Background.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
