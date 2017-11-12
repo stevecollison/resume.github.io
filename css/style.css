@@ -50,6 +50,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 .btn btn-primary {
@@ -101,6 +102,8 @@ border-color: #2254A7;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+
   }
 
   #awards {
@@ -130,6 +133,7 @@ h1{
 
 p {
   font-weight: 300;
+
 }
 
 p.lead {
