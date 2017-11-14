@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
 
         /* Check the location of each desired element */
-        $(".phones,.cards").each( function(i){
+        $(".phones,.cards,.words").each( function(i){
 
 
 
