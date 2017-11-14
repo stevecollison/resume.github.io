@@ -134,6 +134,7 @@ h1{
 p {
   font-weight: 300;
 
+
 }
 
 p.lead {
@@ -157,4 +158,9 @@ width: 100%;
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
+}
+
+.phones,.cards {
+  opacity: 0;
+
 }
