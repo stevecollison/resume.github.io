@@ -8,16 +8,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
   padding-top: 20px;
-
   height: 500px;
+  font-family: .SFNSDisplay-Regular;
+  font-weight: 500;
 
 
 }
 .jumbotron {
+  backface-visibility: hidden;
   background: none;
   padding-left: 0em;
   padding-right: 0em;
-  border-radius: 0;
+  border-radius: none;
 }
 
 .display-3 {
@@ -31,11 +33,7 @@ font-size: 3em;
   text-align: left;
 }
 
-body {
-  font-family: .SFNSDisplay-Regular;
-  font-weight: 500;
 
-}
 
 .nav-link {
   color: white;
